@@ -1,0 +1,29 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+
+		int a []= new int []{221,432,547,879,258,256,988,320};
+		int rev=0;
+		int rem;
+		for(int i=0;i<a.length;i++)
+		{
+			
+			int no=a[i];
+			//int rev =0;
+		
+			while(no>0)
+			{
+				rem=no%10;
+				rev=rev*10+rem;
+				no=no%10;
+				
+			}
+			//System.out.println(rev);
+		}
+	
+		System.out.println(rev);
+	}
+
+}
